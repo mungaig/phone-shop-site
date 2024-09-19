@@ -1,3 +1,3 @@
-# phone-shop-site
-A fictional phone shop website
+# photo-studio-site
+A fictional photo studio website
 
