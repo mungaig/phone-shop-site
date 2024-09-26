@@ -7,6 +7,8 @@ body{
     margin: 0;
 }
 
+/* header styling */
+
 header{
     display: flex;
     margin: 0;
@@ -37,13 +39,25 @@ li a{
 }
 
 li a:hover{
-    color: #FFFBE6;
-    padding: 8px;
-    border: solid, 1px, #ECDFCC;
-    border-radius: 15%;
+    color: #F7F7F8;
+    font-weight: bold;
 }
 
 .logo a{
     text-decoration: none;
     color:#ECDFCC;
+}
+
+/* Showcase styling */
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background: url('./images/showcase3.jpg') no-repeat center center/ cover;
+    
 }
